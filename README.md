@@ -25,7 +25,7 @@ focalLength=400
 focalLength/screenResolution
 ```
 
-So if we were to have a screenResolution of 128 we would have to divide our translated x&y by 3.125.
+So if we were to have a screenResolution of 128 ([pico-8](https://www.lexaloffle.com/pico-8.php) we would have to divide our translated x&y by 3.125.
 
 ### CAMERA ROTATION MATRICES
 
