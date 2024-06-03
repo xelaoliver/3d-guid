@@ -17,7 +17,15 @@ x*(focalLength/z)
 y*(focalLength/z)
 ````
 
-The _focalLength_ is usually set to 400 because it gives a convincing illusion of perspective.
+The _focalLength_ is usually set to 400 because it gives a convincing illusion of perspective. If you have a small display output (example: 128*128), you may want to divide the translated x&y by:
+
+```
+focalLength=400
+
+focalLength/screenResolution
+```
+
+So if we were to have a screenResolution of 128 we would have to divide our translated x&y by 3.125.
 
 ### CAMERA ROTATION MATRICES
 
