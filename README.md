@@ -44,3 +44,9 @@ z*cos(XCameraRoation)-x*sin(XCameraRotation)
 z*sin(YCameraRoation)+y*cos(YCameraRotation)
 z*cos(YCameraRoation)-y*sin(YCameraRotation)
 ```
+
+### CAMERA ROTATION & MOVEMENT CORRECTION
+
+With the added camera rotation, you need to correct your _player_ movement. This includes another set of trigonometrical functions. This can be accomplished by using these scripts:
+
+> In development.
